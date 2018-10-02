@@ -36,9 +36,14 @@
     }
     </script>
     
-    <body oncontextmenu='return false'>
+    	<body oncontextmenu='return false'>
         
 		<p>hello world!</p>
+	    
+	    	<script>
+			document.getElementById("demo").innerHTML = 
+			"Page hostname is: " + window.location.search;
+		</script>
     
 	</body>
 </html>
